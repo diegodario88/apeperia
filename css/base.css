@@ -15,7 +15,10 @@
     --planos-cartao-start: #56CCF2;
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
-    }
+
+    --montserrat: 'Montserrat', sans-serif;
+    --shadow: #00000020;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -28,4 +31,11 @@ body {
 
 .botao {
     box-sizing: border-box;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
 }
